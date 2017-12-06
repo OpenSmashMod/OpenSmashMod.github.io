@@ -2,20 +2,20 @@
   box-sizing: border-box; }
 
 body {
-  background-color: #040404;
+  background-color: #dbd6d6;
   padding: 0;
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #e6efe1; }
+  color: #000000; }
 
 a {
-  color: #4baf67;
+  color: #4b95af;
   text-decoration: none; }
   a:hover {
     text-decoration: underline;
-    color: #159957; }
+    color: #137496; }
 
 .btn {
   display: inline-block;
@@ -26,8 +26,8 @@ a {
   1px -1px 0 #000,
   -1px 1px 0 #000,
   1px 1px 0 #000;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(0, 0, 0, 0.2);
+  border-color: rgba(0, 0, 0, 0.4);
   border-style: solid;
   border-width: 1px;
   border-radius: 0.3rem;
@@ -38,8 +38,8 @@ a {
 .btn:hover {
   color: rgba(255, 255, 255, 1);
   text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.4);
-  border-color: rgba(255, 255, 255, 0.6); }
+  background-color: rgba(0, 0, 0, 0.4);
+  border-color: rgba(0, 0, 0, 0.6); }
 
 @media screen and (min-width: 64em) {
   .btn {
@@ -61,10 +61,10 @@ a {
       margin-left: 0; } }
 
 .page-header {
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   background-color: #000000;
-  background-image: url('../images/storm.png');
+  background-image: url('../images/background.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -209,27 +209,27 @@ a {
   margin-top: 1.2rem;
   margin-bottom: 8em;
   font-weight: normal;
-  color: #159957; }
+  color: #1485ad; }
 .main-content h2 {
   margin-top: 1rem;
   font-weight: normal;
-  color: #159957; }
+  color: #1485ad; }
 .main-content h3 {
   margin-top: 0.8rem;
   font-weight: normal;
-  color: #159957; }
+  color: #1485ad; }
 .main-content h4, {
   margin-top: 0.6rem;
   font-weight: normal;
-  color: #159957; }
+  color: #1485ad; }
 .main-content h5 {
   margin-top: 0.4rem;
   font-weight: normal;
-  color: #159957; }
+  color: #1485ad; }
 .main-content h6 {
   margin-top: 0.2rem;
   font-weight: normal;
-  color: #159957; }
+  color: #1485ad; }
 .main-content p {
   margin-top: -1rem;
   margin-bottom: 0rem; }
@@ -237,7 +237,7 @@ a {
   padding: 2px 4px;
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 0.9rem;
-  color: #383e41;
+  color: #aabbcc;
   background-color: #000000;
   border-radius: 0.3rem; }
 .main-content pre {
@@ -300,11 +300,11 @@ a {
   word-break: normal;
   word-break: keep-all; }
   .main-content table th {
-    background-color: #353535;
+    background-color: #adadad;
     font-weight: bold; }
   .main-content table th, .main-content table td {
     padding: 0.5rem 1rem;
-    border: 1px solid #e9ebec; }
+    border: 1px solid rgba(0, 0, 0, .25); }
 .main-content dl {
   padding: 0; }
   .main-content dl dt {
@@ -342,7 +342,7 @@ a {
 .site-footer {
   padding-top: 2rem;
   margin-top: 2rem;
-  border-top: solid 1px #ffffff; }
+  border-top: solid 1px #000000; }
 
 .site-footer-owner {
   display: block;
@@ -378,6 +378,7 @@ a {
 
   #rig {
     max-width:900px;
+    border: 1px solid rgba(0, 0, 0, .5);
     margin:0 auto; /*center aligned*/
     padding:0;
     font-size:0; /* Remember to change it back to normal font size if have captions */
@@ -399,8 +400,8 @@ a {
     box-shadow:0 0 6px rgba(0,0,0,0.3);
     050505*/
     display:block;
-    background-color: #050505;
-    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, .5);
     position: relative;
     overflow:hidden; }
 
@@ -408,8 +409,8 @@ a {
     /*margin:12px;
     box-shadow:0 0 6px rgba(0,0,0,0.3);*/
     display:block;
-    background-color: #000000;
-    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, .5);
     position: relative;
     overflow:hidden; }
 
@@ -434,7 +435,7 @@ a {
 
   .rig-img-vanilla {
     display:block;
-    opacity: 0.2;
+    opacity: 0.4;
     width: 100%;
     height: auto;
     border:none;
@@ -469,14 +470,14 @@ a {
     bottom: 0;
     right: 0;
     margin: auto;
-    background: #000000 url(img/link.png) no-repeat center 20%;
+    background: #ffffff url(img/link.png) no-repeat center 20%;
     background-size:50px 50px;
     opacity:0;
     filter:alpha(opacity=0);/*For IE6 - IE8*/
     transition:all 0.6s; }
 
   #rig li:hover .rig-overlay {
-    opacity:0.6; }
+    opacity:0.3; }
 
   #rig li:hover .rig-overlay-placeholder {
     opacity:0; }
